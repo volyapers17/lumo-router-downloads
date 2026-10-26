@@ -7,7 +7,8 @@
 **Spend less time choosing AI settings. Stay in your coding workflow.**
 
 Lumo is a local Mac app that helps choose a model and reasoning effort for coding tasks in Codex and Claude Code. Keep using your existing coding tool; Lumo handles routing between it and your configured provider.
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9b9ad8ba-4014-4ffc-9549-da4642290391" />
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/356f6814-61b3-4cf6-a46c-c19280dbf994" />
+
 
 ## Why use Lumo?
 
