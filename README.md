@@ -1,51 +1,51 @@
-# Lumo Router — скачать и установить
+# Lumo Router — download and install
 
-Локальное приложение для маршрутизации моделей в Codex и Claude Code.
+A local model-routing app for Codex and Claude Code.
 
-## [⬇ Скачать для Mac — Apple Silicon](https://github.com/volyapers17/lumo-router-downloads/releases/latest/download/Lumo-Router-macOS-arm64.dmg)
+## [⬇ Download for Mac — Apple Silicon](https://github.com/volyapers17/lumo-router-downloads/releases/latest/download/Lumo-Router-macOS-arm64.dmg)
 
-**Mac с чипом M1 / M2 / M3 / M4 или более новым Apple Silicon · macOS 14+**
+**Mac with an M1 / M2 / M3 / M4 or newer Apple Silicon chip · macOS 14+**
 
-Intel Mac, Windows и Linux: готовых установщиков здесь пока нет.
-Как проверить Mac: меню Apple → «Об этом Mac» → строка «Чип».
+Installers for Intel Macs, Windows, and Linux are not available here yet.
+To check your Mac, open the Apple menu → **About This Mac** → **Chip**.
 
-### Установка — 3 шага
+### Install in 3 steps
 
-1. **Скачайте и откройте DMG.** Перетащите **Lumo Router.app** в **Applications / Программы**.
-2. **Откройте Lumo Router из Программ.** Значок появится в строке меню рядом с часами — отдельного окна в Dock может не быть.
-3. **Подключите свой аккаунт или API-ключ**, затем Codex / Claude через панель Lumo. Подключение меняет настройки выбранного клиента с резервным копированием; следуйте подсказкам и при необходимости перезапустите клиент.
+1. **Download and open the DMG.** Drag **Lumo Router.app** into **Applications**.
+2. **Open Lumo Router from Applications.** Its icon appears in the menu bar near the clock; there may be no separate Dock window.
+3. **Connect your own account or API key**, then connect Codex / Claude through the Lumo panel. Connecting backs up and changes the selected client's settings; follow the prompts and restart the client if requested.
 
-**Не нужны Git, Node.js, Терминал, клонирование репозитория или регистрация на сайте Lumo.**
-Codex / Claude устанавливаются отдельно. Для API нужен собственный ключ; API оплачивается отдельно от подписок.
+**No Git, Node.js, Terminal, repository cloning, or Lumo website signup required.**
+Codex / Claude must be installed separately. API access requires your own key and is billed separately from subscriptions.
 
-### Важно перед первым запуском
+### Important: before your first launch
 
-Это **экспериментальная тестовая сборка**, подписанная ad-hoc, **без Developer ID и нотариализации Apple**.
-macOS может заблокировать первый запуск. Только если вы доверяете этому источнику и сверили файл:
-после попытки запуска откройте **Системные настройки → Конфиденциальность и безопасность**;
-если доступна кнопка **«Всё равно открыть» / Open Anyway**, подтвердите запуск.
-Не отключайте Gatekeeper, антивирус или системную защиту.
-Если система сообщает о вредоносном ПО либо кнопки нет — остановитесь и сообщите об ошибке.
+This is an **experimental test build**, signed ad hoc, **without an Apple Developer ID signature or Apple notarization**.
+macOS may block the first launch. Only if you trust this source and have verified the file:
+after attempting to launch it, open **System Settings → Privacy & Security**;
+if **Open Anyway** is offered, use it to confirm the launch.
+Do not disable Gatekeeper, antivirus software, or system protection.
+If macOS reports malware or offers no Open Anyway button, stop and report the issue.
 
-Режим ChatGPT-плана экспериментальный: доступность и совместимость зависят от аккаунта и клиента.
-Проверки с локальными имитациями API не гарантируют работу с настоящим аккаунтом.
+ChatGPT-plan mode is experimental: availability and compatibility depend on your account and client.
+Tests using local API mocks do not guarantee compatibility with a live account.
 
-### Обновление и отключение
+### Updates and disconnecting
 
-- Для обновления скачайте новый DMG, завершите Lumo через **Quit**, замените приложение в Программах и откройте его снова. Автообновления пока нет.
-- Настройки остаются на вашем Mac в `~/.lumo-router`; этот репозиторий их не содержит.
-- Для возвращения стандартных настроек клиента используйте **Disconnect** в Lumo.
-- Для аварийного восстановления Codex скопируйте **обе программы** из DMG в одну папку Программы, затем запустите **Restore Standard Codex.app**. Программа восстановления показывает подтверждение и не перезаписывает конфликтующие настройки автоматически.
+- To update, download the new DMG, choose **Quit** in Lumo, replace the app in Applications, and open it again. Automatic updates are not available yet.
+- Your settings stay on your Mac in `~/.lumo-router`; this repository does not contain them.
+- Use **Disconnect** in Lumo to restore the client's standard configuration.
+- For emergency Codex recovery, copy **both apps** from the DMG into the same Applications folder, then launch **Restore Standard Codex.app**. The recovery app asks for confirmation and does not automatically overwrite conflicting settings.
 
-### Другие загрузки
+### Other downloads
 
-- [ZIP вместо DMG](https://github.com/volyapers17/lumo-router-downloads/releases/latest/download/Lumo-Router-macOS-arm64.zip)
-- [Все версии и описание изменений](https://github.com/volyapers17/lumo-router-downloads/releases)
-- [SHA-256 для актуальной версии](https://github.com/volyapers17/lumo-router-downloads/releases/latest/download/SHA256SUMS.txt)
-- [Сообщить о проблеме](https://github.com/volyapers17/lumo-router-downloads/issues/new)
+- [ZIP instead of DMG](https://github.com/volyapers17/lumo-router-downloads/releases/latest/download/Lumo-Router-macOS-arm64.zip)
+- [All versions and release notes](https://github.com/volyapers17/lumo-router-downloads/releases)
+- [SHA-256 checksums for the latest version](https://github.com/volyapers17/lumo-router-downloads/releases/latest/download/SHA256SUMS.txt)
+- [Report an issue](https://github.com/volyapers17/lumo-router-downloads/issues/new)
 
-Контрольные суммы помогают проверить целостность файла, но не заменяют подпись Apple.
-Для сравнения можно использовать Терминал: `shasum -a 256 ~/Downloads/Lumo-Router-macOS-arm64.dmg`.
+Checksums help verify file integrity; they are not a substitute for an Apple signature.
+Optional Terminal command for comparison: `shasum -a 256 ~/Downloads/Lumo-Router-macOS-arm64.dmg`.
 
-В этом публичном репозитории находятся только инструкции и установщики. Исходники,
-личные ключи, OAuth-токены, локальные настройки и история запросов сюда не публикуются.
+This public repository contains only instructions and installers. Source code,
+personal keys, OAuth tokens, local settings, and request history are not published here.
